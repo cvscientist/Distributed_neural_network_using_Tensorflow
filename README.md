@@ -5,7 +5,7 @@ It runs the Keras MNIST mlp example across multiple servers.
 
 This sample code runs multiple processes on a single host. It can be configured to run on multiple hosts simply by chaning the host names given in *ClusterSpec*.
 
-##Training the model
+## Training the model
 
 Start the parameter server
   python keras_distributed.py --job_name="ps" --task_index=0
